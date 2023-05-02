@@ -23,3 +23,15 @@ dagster dev
 ```
 
 From here you should be able to navigate to the UI hosted at: http://localhost:3000
+
+## Lab Tasks
+
+For this lab you will be asked to perform the following tasks
+
+1) Update the asset to include a logging statement showing off the dimensions of the dummy dataframe
+
+2) Update the asset to include a warning statement if the dataframe has more than 2 rows.
+
+3) Update the asset to include an error statement that throws if the dataframe has more than 2 rows.
+
+4) Update the asset to include a critical error statement if the dataframe has more than 2 rows
