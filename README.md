@@ -7,8 +7,8 @@ For this lab we will be going over the logging capability within dagster. By the
 First clone the lab locally and install the dependencies like so:
 
 ```bash
-git clone git@github.com:TPL-515/Lab1.git
-cd Lab1/
+git clone git@github.com:TPL-515/Lab2.git
+cd Lab2/
 pip install -e ".[dev]"
 ```
 
@@ -32,6 +32,6 @@ For this lab you will be asked to perform the following tasks
 
 2) Update the asset to include a warning statement if the dataframe has more than 2 rows.
 
-3) Update the asset to include an error statement that throws if the dataframe has more than 2 rows.
+3) Update the asset to include an error statement that throws if the dataframe has more than 2 columns.
 
-4) Update the asset to include a critical error statement if the dataframe has more than 2 rows
+4) Update the asset to include a critical error statement if the dataframe has more than 2 rows and 2 columns.
